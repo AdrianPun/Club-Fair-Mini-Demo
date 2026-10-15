@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+  This is the HTML file. It holds what's ON the page: the words and the button.
+
+  Words inside pointy brackets, like <h1>, are called "tags".
+  They tell the browser what each thing is.
+  Most tags come in pairs: <h1> starts something and </h1> (with a slash) ends it.
+  Whatever is between the pair shows up on the page.
+
+  This text you're reading is a "comment": a note for humans.
+  The browser ignores it.
+-->
+<html>
+  <head>
+    <!-- The "head" holds behind-the-scenes info. Nothing in here shows on the page. -->
+
+    <!-- The title is the name on the browser tab. -->
+    <title>My First Web Page</title>
+
+    <!-- This line connects style.css, the file that controls how things look. -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <!-- The "body" holds everything you can see on the page. -->
+
+    <!-- A big heading. id="message" is its name tag, so script.js can find it.
+         TRY THIS: change Hello! to your own name. -->
+    <h1 id="message">Hello!</h1>
+
+    <!-- A button. id="my-button" is its name tag, so script.js can find it.
+         TRY THIS: change the words on the button. -->
+    <button id="my-button">Click me</button>
+
+    <!-- This line connects script.js, the file that makes the button work. -->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+/*
+  This is the CSS file. It controls how the page LOOKS: colors, sizes, spacing.
+
+  Every section below follows the same pattern:
+
+    what-to-style {
+      setting: value;
+    }
+
+  Every line inside the curly brackets ends with a semicolon ;
+
+  Notes for humans (like this one) are wrapped in slash-star marks.
+  The browser skips them.
+*/
+
+
+/* "body" means the whole page. */
+body {
+  background-color: lavender;  /* the color behind everything. TRY THIS: pink, lightgreen or skyblue */
+  color: midnightblue;         /* the color of the words */
+  font-family: Arial;          /* the style of the letters */
+  text-align: center;          /* put everything in the middle */
+  margin-top: 150px;           /* push everything down from the top. "px" means pixels, the tiny dots on your screen */
+}
+
+
+/* "h1" means the big heading. */
+h1 {
+  font-size: 60px;             /* how big the letters are. TRY THIS: 100px */
+}
+
+
+/* "button" means the button. */
+button {
+  font-size: 24px;             /* how big the button's letters are */
+  padding: 20px;               /* empty space inside the button, around the words */
+  background-color: gold;      /* the button's color */
+  border: none;                /* no line around the edge */
+  border-radius: 12px;         /* rounded corners. TRY THIS: 50px */
+  cursor: pointer;             /* show a pointing hand when the mouse is over it */
+}
